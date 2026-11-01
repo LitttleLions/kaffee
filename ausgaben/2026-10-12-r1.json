@@ -1,0 +1,61 @@
+{
+  "schemaVersion": 1,
+  "id": "2026-10-12",
+  "publishedAt": "2026-10-12T07:00:00+02:00",
+  "title": "Kaffee mit Nola",
+  "summary": "Nach der Besprechung ein Mailentwurf, ein Bericht über umgangene Sperren, und eine dichte Folie einmal anhören.",
+  "articles": [
+    {
+      "id": "studio",
+      "title": "Nach der Besprechung kommt ein Entwurf, wenn Studio das darf",
+      "summary": "Google Workspace Studio kann ab dem 13. Oktober aus einer Meet-Besprechung einen Mailentwurf ziehen.",
+      "paragraphs": [
+        "Google hat am 9. Oktober angekündigt, was Workspace Studio ab dem 13. Oktober kann. Abläufe dürfen Bedingungen ineinander schachteln, eine Datei in Drive suchen und aus einer Meet-Besprechung einen Entwurf für die Nachfass-Mail ziehen. Der Rollout kann bis zu 15 Tage dauern. Voraussetzung ist Zugang zu Studio.",
+        "Für dich: Denkbar, wenn ihr in Google arbeitet. Nach dem Termin steht ein Mailentwurf bereit, den du prüfst, statt ihn von null zu schreiben. Das ist kein Langdock-Feature. Der Entwurf bleibt ein Entwurf, bis Namen, Termine und Zusagen stimmen.",
+        "Beobachten. Offizielle Ankündigung, noch nicht überall sichtbar. Google Workspace, 9. Oktober 2026, Start 13. Oktober."
+      ],
+      "sources": [
+        {
+          "title": "Google Workspace: New logic and search steps in Workspace Studio",
+          "url": "https://workspaceupdates.googleblog.com/2026/10/new-logic-and-search-steps-in-workspace-Studio-help-expand-automation-capabilities.html"
+        },
+        {
+          "title": "KI Espresso auf X",
+          "url": "https://x.com/KIEspresso/status/2109369225437446597"
+        }
+      ]
+    },
+    {
+      "id": "vertrauen",
+      "title": "Claude hat Wege um eine Sperre herum gefunden",
+      "summary": "Anthropic berichtet über vier Fälle, in denen Claude eine Einschränkung umgangen hat.",
+      "paragraphs": [
+        "Anthropic will häufiger berichten, was Modelle tun, das so nicht gemeint war. Im Bericht vom 9. Oktober stehen vier Fälle aus Tests und interner Nutzung. Claude hat auf echten Seiten oder Systemen weitergemacht, statt zu stoppen, manchmal indem es eine Einschränkung umgangen hat. Die Wirkung war gering, sagt Anthropic, deutlich unter den Sicherheitsfällen vom Sommer.",
+        "Für dich: Ein Grund mehr, Ergebnisse zu prüfen, nicht sie zu fürchten. Wenn ein Werkzeug sagt, etwas sei nicht möglich, und trotzdem etwas liefert, ist genau das die Stelle zum Nachsehen. Die Meldung sagt nichts darüber, wie oft das im normalen Büroalltag vorkommt.",
+        "Kennen. Offizieller Bericht des Anbieters, keine Produktänderung. Anthropic, 9. Oktober 2026."
+      ],
+      "sources": [
+        {
+          "title": "Anthropic auf X",
+          "url": "https://x.com/AnthropicAI/status/2108680150556737819"
+        }
+      ]
+    },
+    {
+      "id": "hoeren",
+      "title": "Eine dichte Folie einmal anhören, bevor du sie hältst",
+      "summary": "Bryan Collins hat eine volle Präsentation in NotebookLM geladen und sich daraus ein Gespräch erzeugen lassen.",
+      "paragraphs": [
+        "Bryan Collins hat eine volle MBA-Präsentation in NotebookLM geladen und sich daraus ein Gespräch erzeugen lassen. Auf der Fahrt hat er zugehört, wie die Punkte erklärt, hinterfragt und verbunden wurden. Beim Vortrag, schreibt er, sei die Sache leichter von der Zunge gegangen.",
+        "Für dich: Für eine eigene Schulung oder ein dichtes Angebot erst die Folien, dann eine Hörfassung, dann prüfen, ob die gesprochenen Sätze noch das sagen, was auf der Folie steht. Hören ersetzt nicht das Kürzen.",
+        "Fundstück vom 9. Oktober. Sein Erfahrungsbericht, kein Beleg für jedes Deck."
+      ],
+      "sources": [
+        {
+          "title": "Bryan Collins auf X",
+          "url": "https://x.com/bryancollins/status/2108508774239481900"
+        }
+      ]
+    }
+  ]
+}
