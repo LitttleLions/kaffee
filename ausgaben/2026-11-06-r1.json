@@ -1,1 +1,65 @@
-PLACEHOLDER
+{
+  "schemaVersion": 1,
+  "id": "2026-11-06",
+  "publishedAt": "2026-11-06T08:00:00+01:00",
+  "title": "Kaffee mit Nola",
+  "summary": "Claude macht jetzt Dokumente und Folien direkt in der Unterhaltung, arbeitet in Google Docs und Slides, und ein kurzer Hör-Check vor der eigenen Präsentation.",
+  "articles": [
+    {
+      "id": "claude-docs-slides",
+      "title": "Claude erstellt Dokumente und Folien direkt im Chat",
+      "summary": "Mit Claude Docs und Claude Slides entstehen Texte und Präsentationen neben der Unterhaltung und lassen sich exportieren.",
+      "paragraphs": [
+        "Claude kann seit September 2026 in jeder Unterhaltung ein Dokument oder eine Präsentation anlegen. Es öffnet sich als eigenes Fenster neben dem Chat. Du kannst es von Hand korrigieren, Claude weitere Anweisungen geben oder es direkt exportieren.",
+        "Für dich: Statt Material in ein anderes Tool zu kopieren, lädst du Notizen oder eine Ausschreibung hoch und sagst: „Mach daraus ein Angebot mit den Punkten A, B und C.“ Oder: „Aus diesem Text eine 8-Folien-Präsentation für die interne Runde.“ Die Ergebnisse kommen als Word, PDF oder PowerPoint.",
+        "Prüfen. Die Funktion ist auf allen Plänen verfügbar (auch Free). Export nach PowerPoint behält Text und Tabellen, Diagramme werden oft zu Bildern. Offizielle Claude-Hilfe, Stand Anfang November 2026."
+      ],
+      "sources": [
+        {
+          "title": "Claude Academy: Making slides and presentations",
+          "url": "https://academy.claude.com/tutorials/using-claude-design-for-presentations-and-slide-decks"
+        },
+        {
+          "title": "Claude Help: Create and edit files with Claude",
+          "url": "https://support.claude.com/en/articles/12111783-create-and-edit-files-with-claude"
+        }
+      ]
+    },
+    {
+      "id": "claude-google",
+      "title": "Claude sitzt jetzt auch in Google Docs und Slides",
+      "summary": "Seit Oktober arbeitet Claude als Sidebar in geöffneten Google-Dateien oder bearbeitet sie direkt aus dem Claude-Chat heraus.",
+      "paragraphs": [
+        "Anthropic hat am 6. Oktober die Integration mit Google Workspace freigegeben. Du kannst Claude als Seitenleiste in einem offenen Google Doc oder einer Google-Präsentation öffnen. Es sieht, was markiert ist, und ändert es direkt. Alternativ startest du in Claude und lässt es eine Google-Datei anlegen oder bearbeiten.",
+        "Für dich: Wenn ihr in Google arbeitet, kannst du eine Ausschreibung in Docs öffnen und Claude bitten, fehlende Punkte zu markieren oder eine saubere Gliederung zu machen – ohne Tabwechsel. Bei Folien nutzt es vorhandene Layouts.",
+        "Kennen. Öffentliche Beta für alle bezahlten Claude-Pläne. Google-Workspace-Ankündigung und Claude-Hilfe, Oktober/November 2026."
+      ],
+      "sources": [
+        {
+          "title": "Claude: Works with Google Docs, Sheets and Slides",
+          "url": "https://claude.com/resources/articles/claude-now-works-in-google-docs-sheets-and-slides"
+        },
+        {
+          "title": "VentureBeat zur Integration",
+          "url": "https://venturebeat.com/technology/you-can-now-open-claude-directly-in-google-docs-sheets-and-slides-and-vice-versa-open-and-edit-the-files-in-claude"
+        }
+      ]
+    },
+    {
+      "id": "hoer-check",
+      "title": "Dichte Folien einmal anhören, bevor du sie hältst",
+      "summary": "Material in NotebookLM laden, eine Hörfassung erzeugen und prüfen, ob die gesprochenen Sätze noch das sagen, was auf den Folien steht.",
+      "paragraphs": [
+        "Mehrere Nutzer berichten, dass sie eine fertige Präsentation in NotebookLM laden und sich daraus ein Gespräch erzeugen lassen. Auf dem Weg zum Termin hören sie zu und merken, wo Formulierungen unklar oder zu dicht sind.",
+        "Für dich: Bevor du eine eigene Schulung oder ein Angebotsgespräch hältst, erst die Folien fertigmachen, dann eine Hörfassung erzeugen und beim Zuhören notieren, was du kürzen oder umformulieren willst. Das ersetzt nicht das eigene Kürzen, zeigt aber blinde Flecken.",
+        "Fundstück. Erfahrungsberichte, kein offizielles Feature-Update. Nutzbar mit Google-Konto."
+      ],
+      "sources": [
+        {
+          "title": "NotebookLM",
+          "url": "https://notebooklm.google.com"
+        }
+      ]
+    }
+  ]
+}
