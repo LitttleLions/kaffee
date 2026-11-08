@@ -1,0 +1,65 @@
+{
+  "schemaVersion": 1,
+  "id": "2026-11-08",
+  "publishedAt": "2026-11-08T07:00:00+01:00",
+  "title": "Kaffee mit Nola",
+  "summary": "Bessere Folien aus vorhandenem Material, ein einfacher Konsistenz-Check bei längeren Texten, und wann Claude oder Gemini sich für Schreibarbeit eher lohnt.",
+  "articles": [
+    {
+      "id": "folien-material",
+      "title": "Aus Notizen eine Folie, die noch zu dir passt",
+      "summary": "Claude und Gemini können aus Material Folien machen – der Unterschied liegt oft darin, wie klar du sagst, was bleiben und was weg soll.",
+      "paragraphs": [
+        "Claude Slides und Gemini (über Canvas) können aus hochgeladenen Notizen oder einem Text eine Präsentation bauen. Die Ergebnisse sind meist brauchbar als Rohfassung, aber selten direkt fertig. Häufig bleiben zu viele Details stehen oder die Gliederung folgt dem Ausgangstext zu eng.",
+        "Für dich: Bevor du die Folie anforderst, schreib kurz drei Punkte: 1. Wer hört zu? 2. Was sollen die Zuhörer am Ende mitnehmen? 3. Welche zwei oder drei Dinge dürfen auf keinen Fall fehlen? Dann sag: „Mach daraus maximal 8 Folien. Lass alles weg, was nicht zu diesen Punkten gehört.“ Danach die Rohfassung selbst durchgehen und kürzen.",
+        "Praktisch. Keine neue Funktion, sondern eine Arbeitsweise, die mit den aktuellen Tools (Claude Slides, Gemini Canvas) gut funktioniert. Stand Anfang November 2026."
+      ],
+      "sources": [
+        {
+          "title": "Claude Academy: Making slides and presentations",
+          "url": "https://academy.claude.com/tutorials/using-claude-design-for-presentations-and-slide-decks"
+        },
+        {
+          "title": "Vergleich AI-Präsentationstools (daglo)",
+          "url": "https://daglo.ai/d/en/blog/ai-ppt-maker-claude-chatgpt-gemini-slides-daglo"
+        }
+      ]
+    },
+    {
+      "id": "konsistenz",
+      "title": "Längere Texte einmal auf Widersprüche prüfen",
+      "summary": "Bei Angeboten oder Ausschreibungsantworten lohnt sich ein zweiter Durchlauf, der nur auf Unstimmigkeiten achtet.",
+      "paragraphs": [
+        "Wenn ein längerer Text (Angebot, Antwort auf eine Ausschreibung, Schulungsunterlage) fertig ist, kann man ihn noch einmal mit einer engen Aufgabe durchlaufen lassen: „Lies den Text und markiere Stellen, an denen Zahlen, Namen, Fristen oder Aussagen sich widersprechen oder unklar bleiben.“",
+        "Für dich: Das funktioniert in Claude oder ChatGPT. Wichtig ist, dass du den fertigen Text hochlädst und die Aufgabe eng formulierst. Das Ergebnis ist kein Korrekturlesen im klassischen Sinn, sondern ein Hinweis auf mögliche Lücken. Die eigentliche Entscheidung, was du änderst, bleibt bei dir.",
+        "Einfach ausprobieren. Keine neue Funktion, sondern eine gezielte Nutzung der bestehenden Modelle. Besonders nützlich bei Texten, die aus mehreren Quellen zusammengesetzt wurden."
+      ],
+      "sources": [
+        {
+          "title": "Claude Help: Create and edit files",
+          "url": "https://support.claude.com/en/articles/12111783-create-and-edit-files-with-claude"
+        }
+      ]
+    },
+    {
+      "id": "schreib-staerken",
+      "title": "Claude oder Gemini für längere Texte?",
+      "summary": "Claude gilt weiterhin als stark bei längeren, zusammenhängenden Texten; Gemini ist oft schneller und gut an Google angebunden.",
+      "paragraphs": [
+        "In aktuellen Vergleichen (Stand Anfang November) wird Claude häufig als angenehmer und konsistenter bei längeren Schreibaufgaben beschrieben. Gemini punktet mit der direkten Anbindung an Google Docs und oft mit höherer Geschwindigkeit. ChatGPT liegt dazwischen und bietet das breiteste Ökosystem.",
+        "Für dich: Wenn du einen längeren Text (Angebot, Schulung, Stellungnahme) erarbeitest und Wert auf einen gleichmäßigen Ton legst, lohnt sich ein Versuch mit Claude. Wenn du schon in Google Docs arbeitest und schnelle Umformulierungen brauchst, ist Gemini oft praktischer. Die Unterschiede sind im Alltag oft kleiner als die Qualität der eigenen Anweisung.",
+        "Einordnung. Keine Produktankündigung, sondern eine Zusammenfassung aktueller Vergleiche und Nutzerberichte. Die Modelle entwickeln sich weiter."
+      ],
+      "sources": [
+        {
+          "title": "Claude vs ChatGPT vs Gemini (TechLogHub)",
+          "url": "https://techloghub.com/compare/chatgpt-vs-claude-vs-gemini"
+        },
+        {
+          "title": "Vergleich November 2026 (Modern Robotics)",
+          "url": "https://modernrobotics.co.uk/articles/chatgpt-vs-gemini-vs-claude-2026"
+        }
+      ]
+    }
+  ]
+}
