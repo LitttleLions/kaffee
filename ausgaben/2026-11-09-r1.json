@@ -1,0 +1,47 @@
+{
+  "schemaVersion": 1,
+  "id": "2026-11-09",
+  "publishedAt": "2026-11-09T07:15:00+01:00",
+  "title": "Kaffee mit Nola",
+  "summary": "Claude räumt Erinnerungen auf, aus Ausschreibungen die Kernpunkte ziehen, und aus Material eine Schulungsgliederung machen.",
+  "articles": [
+    {
+      "id": "agent-memory",
+      "title": "Claude räumt seine Erinnerungen auf",
+      "summary": "Anthropic hat beschrieben, wie Agenten Notizen über Sessions hinweg speichern und im „Leerlauf“ korrigieren.",
+      "paragraphs": [
+        "Am 6. November hat Anthropic einen Engineering-Artikel veröffentlicht: „The components of agent memory“. Darin erklären sie, wie Claude Erfahrungen aus Gesprächen und Aufgaben als lesbare Notizen behält – nicht durch Training der Gewichte, sondern als Dateien und Kontext, die in späteren Sitzungen wieder geladen werden können. Ein Teil davon läuft im Hintergrund als „Dreaming“: Das System liest alte Transkripte, korrigiert falsche Notizen, baut Verknüpfungen und entscheidet, was beim nächsten Start direkt mitgeladen wird.",
+        "Für dich: In Langdock oder anderen Unternehmens-Tools, die Kontext über mehrere Chats halten, lohnt es sich, explizit zu steuern, was „gemerkt“ werden soll. Statt zu hoffen, dass das System alles richtig behält, kannst du am Ende einer längeren Arbeit sagen: „Speichere als Merkregel: Bei Ausschreibungen immer die Fristen und die Bewertungskriterien zuerst extrahieren.“ Das reduziert das Risiko, dass sich falsche Annahmen festsetzen.",
+        "Kennen. Einordnung aus der Originalquelle. Noch kein fertiges Produktfeature für alle Nutzer, sondern Einblick in die Arbeitsweise."
+      ],
+      "sources": [
+        {
+          "title": "The components of agent memory – Anthropic",
+          "url": "https://www.anthropic.com/research/components-of-agent-memory"
+        }
+      ]
+    },
+    {
+      "id": "ausschreibung-kernpunkte",
+      "title": "Aus einer Ausschreibung die Kernpunkte ziehen",
+      "summary": "Statt den ganzen Text noch einmal zu lesen, lässt du dir die Anforderungen in eine klare Liste übersetzen – und prüfst danach selbst.",
+      "paragraphs": [
+        "Bei längeren Ausschreibungen oder Anforderungsdokumenten geht oft Zeit für das Herausfiltern der wirklich relevanten Punkte drauf. Aktuelle Modelle (Claude, Gemini, GPT-Varianten in Langdock) können das zuverlässig, wenn die Aufgabe eng bleibt.",
+        "Für dich: Lade das Dokument hoch und schreibe: „Extrahiere alle Muss-Anforderungen und alle Soll-Anforderungen. Liste sie getrennt auf, jeweils mit der Original-Formulierung und der Seitenzahl oder dem Abschnitt, falls erkennbar. Markiere außerdem Stellen, die unklar oder widersprüchlich wirken.“ Danach gehst du die Liste selbst durch und entscheidest, was in die Antwort oder die Schulungsunterlage kommt. Das ersetzt nicht das eigene Lesen, spart aber den ersten Durchlauf.",
+        "Ausprobieren. Praktischer Vorschlag mit den Tools, die du schon nutzt. Keine neue Funktion, sondern eine enge Anweisung."
+      ],
+      "sources": []
+    },
+    {
+      "id": "schulungsgliederung",
+      "title": "Schulungsgliederung aus vorhandenem Material",
+      "summary": "Aus einem Fachtext oder einer internen Richtlinie lässt sich schnell eine Gliederung für eine interne Schulung machen – die Folien baust du danach selbst oder mit einem zweiten Schritt.",
+      "paragraphs": [
+        "Viele nutzen KI vor allem für fertige Texte oder Folien. Für Schulungen ist oft der Zwischenschritt nützlicher: erst die Struktur, dann die Inhalte. Das hält die Kontrolle bei dir und verhindert, dass die Gliederung zu eng am Ausgangstext klebt.",
+        "Für dich: Nimm einen bestehenden Text (Richtlinie, Angebotsteil, Fachbeitrag) und sage: „Mach daraus eine Schulungsgliederung für 45 Minuten interne Schulung. Zielgruppe: Kolleginnen und Kollegen, die das Thema noch nicht kennen. Maximal 6 Blöcke. Pro Block: Lernziel in einem Satz und 2–3 Stichpunkte, was gezeigt oder geübt werden soll. Lass alles weg, was für die Zielgruppe zu detailreich ist.“ Danach kannst du die Gliederung in Claude Slides oder Gemini weitergeben und die Folien anpassen.",
+        "Fundstück. Arbeitsweise, die in den letzten Tagen in verschiedenen Praxisberichten auftauchte. Kein neues Produkt, sondern eine bewährte Reihenfolge."
+      ],
+      "sources": []
+    }
+  ]
+}
