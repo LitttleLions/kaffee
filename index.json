@@ -1,7 +1,15 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-08T06:50:00+01:00",
+  "updatedAt": "2026-11-09T07:15:00+01:00",
   "issues": [
+    {
+      "id": "2026-11-09",
+      "revision": 1,
+      "publishedAt": "2026-11-09T07:15:00+01:00",
+      "title": "Kaffee mit Nola",
+      "summary": "Claude räumt Erinnerungen auf, aus Ausschreibungen die Kernpunkte ziehen, und aus Material eine Schulungsgliederung machen.",
+      "contentURL": "https://litttlelions.github.io/kaffee/ausgaben/2026-11-09-r1.json"
+    },
     {
       "id": "2026-11-08",
       "revision": 1,
