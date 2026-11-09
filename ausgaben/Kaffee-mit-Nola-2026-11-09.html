@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Kaffee mit Nola – 9. November 2026</title>
+<style>
+  :root {
+    --cream: #faf6f0;
+    --ink: #3d2b1f;
+    --gold: #c9a87c;
+    --soft: #f3efe8;
+    --muted: #7a6a5a;
+  }
+  * { box-sizing: border-box; }
+  body {
+    font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
+    font-size: 16px;
+    line-height: 1.55;
+    color: var(--ink);
+    background: var(--cream);
+    margin: 0;
+    padding: 1.2rem 1rem 3rem;
+    max-width: 720px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  header {
+    position: relative;
+    margin-bottom: 2rem;
+    padding-right: 90px;
+  }
+  h1 {
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 2.1rem;
+    font-weight: 500;
+    margin: 0 0 0.2rem;
+    color: var(--ink);
+  }
+  .meta { color: var(--muted); font-size: 0.95rem; }
+  .nola {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 72px;
+    height: 72px;
+  }
+  article {
+    background: #fff;
+    border-radius: 14px;
+    padding: 1.4rem 1.3rem 1.3rem 4.6rem;
+    margin-bottom: 1.4rem;
+    box-shadow: 0 2px 10px rgba(61,43,31,0.05);
+    position: relative;
+    border-left: 3px solid var(--gold);
+  }
+  .num {
+    position: absolute;
+    left: 0.9rem;
+    top: 1.3rem;
+    font-family: Georgia, serif;
+    font-size: 1.6rem;
+    font-weight: 600;
+    color: var(--gold);
+    line-height: 1;
+  }
+  .illu {
+    position: absolute;
+    left: 0.7rem;
+    top: 3.6rem;
+    width: 36px;
+    height: 36px;
+    opacity: 0.7;
+  }
+  h2 {
+    font-size: 1.28rem;
+    margin: 0 0 0.6rem;
+    color: var(--ink);
+    font-weight: 600;
+  }
+  .summary {
+    font-style: italic;
+    color: #5a4a3a;
+    margin: 0 0 0.8rem;
+  }
+  p { margin: 0.65rem 0; }
+  .fuer-dich {
+    background: var(--soft);
+    padding: 0.9rem 1rem;
+    border-radius: 10px;
+    margin: 1rem 0;
+    font-size: 0.98rem;
+  }
+  .label {
+    display: inline-block;
+    background: #efe6d8;
+    color: var(--ink);
+    font-size: 0.78rem;
+    padding: 0.15rem 0.5rem;
+    border-radius: 999px;
+    margin-right: 0.4rem;
+    font-weight: 600;
+  }
+  .meta-line { font-size: 0.88rem; color: var(--muted); margin-top: 0.8rem; }
+  a { color: #8b5e3c; text-decoration: underline; }
+  a:hover { color: #6b4528; }
+  .exercise {
+    background: #fff;
+    border-radius: 14px;
+    padding: 1.3rem 1.4rem;
+    margin-top: 1.6rem;
+    border: 1px solid #e8dfd0;
+  }
+  footer {
+    text-align: center;
+    margin-top: 2.5rem;
+    color: var(--muted);
+    font-size: 0.85rem;
+    position: relative;
+  }
+  .branch {
+    display: block;
+    margin: 1.2rem auto 0.4rem;
+    width: 48px;
+    height: 48px;
+  }
+</style>
+</head>
+<body>
+  <header>
+    <h1>Kaffee mit Nola</h1>
+    <div class="meta">Montag, 9. November 2026 · für Nora</div>
+    <svg class="nola" viewBox="0 0 72 72" aria-hidden="true">
+      <circle cx="36" cy="28" r="14" fill="#f5e6d3" stroke="#c9a87c" stroke-width="1.5"/>
+      <path d="M22 28 Q22 42 36 48 Q50 42 50 28" fill="#e8d5c4" stroke="#c9a87c" stroke-width="1"/>
+      <ellipse cx="36" cy="52" rx="10" ry="6" fill="#c9a87c"/>
+      <path d="M48 30 Q56 28 58 36 Q56 44 48 42" fill="none" stroke="#c9a87c" stroke-width="2"/>
+      <circle cx="30" cy="26" r="1.5" fill="#3d2b1f"/>
+      <circle cx="42" cy="26" r="1.5" fill="#3d2b1f"/>
+      <path d="M32 32 Q36 35 40 32" fill="none" stroke="#3d2b1f" stroke-width="1.2"/>
+    </svg>
+  </header>
+
+  <article>
+    <div class="num">01</div>
+    <svg class="illu" viewBox="0 0 36 36" aria-hidden="true">
+      <circle cx="18" cy="18" r="16" fill="#f3efe8" stroke="#c9a87c" stroke-width="1"/>
+      <path d="M10 22 Q18 12 26 22" fill="none" stroke="#c9a87c" stroke-width="1.5"/>
+      <circle cx="18" cy="16" r="3" fill="#c9a87c"/>
+    </svg>
+    <h2>Claude räumt seine Erinnerungen auf</h2>
+    <div class="summary">Anthropic hat beschrieben, wie Agenten Notizen über Sessions hinweg speichern und im „Leerlauf“ korrigieren.</div>
+    <p>Am 6. November hat Anthropic einen Engineering-Artikel veröffentlicht: „The components of agent memory“. Darin erklären sie, wie Claude Erfahrungen aus Gesprächen und Aufgaben als lesbare Notizen behält – nicht durch Training der Gewichte, sondern als Dateien und Kontext, die in späteren Sitzungen wieder geladen werden können. Ein Teil davon läuft im Hintergrund als „Dreaming“: Das System liest alte Transkripte, korrigiert falsche Notizen, baut Verknüpfungen und entscheidet, was beim nächsten Start direkt mitgeladen wird.</p>
+    <div class="fuer-dich"><strong>Für dich:</strong> In Langdock oder anderen Unternehmens-Tools, die Kontext über mehrere Chats halten, lohnt es sich, explizit zu steuern, was „gemerkt“ werden soll. Statt zu hoffen, dass das System alles richtig behält, kannst du am Ende einer längeren Arbeit sagen: „Speichere als Merkregel: Bei Ausschreibungen immer die Fristen und die Bewertungskriterien zuerst extrahieren.“ Das reduziert das Risiko, dass sich falsche Annahmen festsetzen.</div>
+    <p><span class="label">Kennen</span> Einordnung aus der Originalquelle. Noch kein fertiges Produktfeature für alle Nutzer, sondern Einblick in die Arbeitsweise.</p>
+    <div class="meta-line">6. November 2026 · Quelle: Anthropic Research · <a href="https://www.anthropic.com/research/components-of-agent-memory">Direkt zum Artikel</a></div>
+  </article>
+
+  <article>
+    <div class="num">02</div>
+    <svg class="illu" viewBox="0 0 36 36" aria-hidden="true">
+      <rect x="6" y="8" width="24" height="20" rx="2" fill="#f3efe8" stroke="#c9a87c" stroke-width="1"/>
+      <path d="M10 14 h16 M10 18 h12 M10 22 h14" stroke="#c9a87c" stroke-width="1.2"/>
+    </svg>
+    <h2>Aus einer Ausschreibung die Kernpunkte ziehen</h2>
+    <div class="summary">Statt den ganzen Text noch einmal zu lesen, lässt du dir die Anforderungen in eine klare Liste übersetzen – und prüfst danach selbst.</div>
+    <p>Bei längeren Ausschreibungen oder Anforderungsdokumenten geht oft Zeit für das Herausfiltern der wirklich relevanten Punkte drauf. Aktuelle Modelle (Claude, Gemini, GPT-Varianten in Langdock) können das zuverlässig, wenn die Aufgabe eng bleibt.</p>
+    <div class="fuer-dich"><strong>Für dich:</strong> Lade das Dokument hoch und schreibe: „Extrahiere alle Muss-Anforderungen und alle Soll-Anforderungen. Liste sie getrennt auf, jeweils mit der Original-Formulierung und der Seitenzahl oder dem Abschnitt, falls erkennbar. Markiere außerdem Stellen, die unklar oder widersprüchlich wirken.“ Danach gehst du die Liste selbst durch und entscheidest, was in die Antwort oder die Schulungsunterlage kommt. Das ersetzt nicht das eigene Lesen, spart aber den ersten Durchlauf.</div>
+    <p><span class="label">Ausprobieren</span> Praktischer Vorschlag mit den Tools, die du schon nutzt. Keine neue Funktion, sondern eine enge Anweisung.</p>
+    <div class="meta-line">Stand 9. November 2026 · Eigene Arbeitsweise · nutzbar in Langdock, Claude oder Gemini</div>
+  </article>
+
+  <article>
+    <div class="num">03</div>
+    <svg class="illu" viewBox="0 0 36 36" aria-hidden="true">
+      <path d="M8 28 L18 8 L28 28 Z" fill="#f3efe8" stroke="#c9a87c" stroke-width="1"/>
+      <circle cx="18" cy="20" r="4" fill="#c9a87c"/>
+    </svg>
+    <h2>Schulungsgliederung aus vorhandenem Material</h2>
+    <div class="summary">Aus einem Fachtext oder einer internen Richtlinie lässt sich schnell eine Gliederung für eine interne Schulung machen – die Folien baust du danach selbst oder mit einem zweiten Schritt.</div>
+    <p>Viele nutzen KI vor allem für fertige Texte oder Folien. Für Schulungen ist oft der Zwischenschritt nützlicher: erst die Struktur, dann die Inhalte. Das hält die Kontrolle bei dir und verhindert, dass die Gliederung zu eng am Ausgangstext klebt.</p>
+    <div class="fuer-dich"><strong>Für dich:</strong> Nimm einen bestehenden Text (Richtlinie, Angebotsteil, Fachbeitrag) und sage: „Mach daraus eine Schulungsgliederung für 45 Minuten interne Schulung. Zielgruppe: Kolleginnen und Kollegen, die das Thema noch nicht kennen. Maximal 6 Blöcke. Pro Block: Lernziel in einem Satz und 2–3 Stichpunkte, was gezeigt oder geübt werden soll. Lass alles weg, was für die Zielgruppe zu detailreich ist.“ Danach kannst du die Gliederung in Claude Slides oder Gemini weitergeben und die Folien anpassen.</div>
+    <p><span class="label">Fundstück</span> Arbeitsweise, die in den letzten Tagen in verschiedenen Praxisberichten auftauchte. Kein neues Produkt, sondern eine bewährte Reihenfolge.</p>
+    <div class="meta-line">Letzte 7 Tage · Praxisberichte · nutzbar in Langdock und den gängigen Chat-Tools</div>
+  </article>
+
+  <div class="exercise">
+    <h2>Kleine Übung</h2>
+    <p>Nimm einen kurzen Abschnitt aus einer aktuellen Ausschreibung oder internen Anforderung (maximal eine Seite). Stelle dem Modell diese eine Aufgabe:</p>
+    <p><em>„Liste die drei wichtigsten Anforderungen. Schreibe zu jeder Anforderung in einem Satz, was du unter ‚erfüllt‘ verstehen würdest. Markiere eine Stelle, die du für unklar hältst, und formuliere eine Rückfrage, die du stellen könntest.“</em></p>
+    <p>Vergleiche das Ergebnis mit deiner eigenen Einschätzung. Die Übung dauert fünf Minuten und zeigt, wie eng die Anweisung bleiben sollte.</p>
+  </div>
+
+  <footer>
+    <svg class="branch" viewBox="0 0 48 48" aria-hidden="true">
+      <path d="M24 40 Q24 24 12 16" fill="none" stroke="#c9a87c" stroke-width="1.5"/>
+      <path d="M24 40 Q24 28 36 20" fill="none" stroke="#c9a87c" stroke-width="1.5"/>
+      <circle cx="12" cy="16" r="3" fill="#c9a87c"/>
+      <circle cx="36" cy="20" r="2.5" fill="#c9a87c"/>
+      <circle cx="24" cy="40" r="3" fill="#3d2b1f"/>
+    </svg>
+    Kaffee mit Nola · 9. November 2026
+  </footer>
+</body>
+</html>
