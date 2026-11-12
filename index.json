@@ -1,7 +1,15 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-09T07:15:00+01:00",
+  "updatedAt": "2026-11-12T06:10:00+01:00",
   "issues": [
+    {
+      "id": "2026-11-12",
+      "revision": 1,
+      "publishedAt": "2026-11-12T07:00:00+01:00",
+      "title": "Kaffee mit Nola",
+      "summary": "Claude bekommt Whiteboards, Sheets und eine Meeting-Funktion – was das konkret kann, wo es noch begrenzt ist, und wie man es für Texte, Folien und Abstimmungen nutzen kann.",
+      "contentURL": "https://litttlelions.github.io/kaffee/ausgaben/2026-11-12-r1.json"
+    },
     {
       "id": "2026-11-09",
       "revision": 1,
