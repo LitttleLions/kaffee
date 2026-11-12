@@ -1,0 +1,61 @@
+{
+  "schemaVersion": 1,
+  "id": "2026-11-12",
+  "publishedAt": "2026-11-12T07:00:00+01:00",
+  "title": "Kaffee mit Nola",
+  "summary": "Claude bekommt Whiteboards, Sheets und eine Meeting-Funktion – was das konkret kann, wo es noch begrenzt ist, und wie man es für Texte, Folien und Abstimmungen nutzen kann.",
+  "articles": [
+    {
+      "id": "claude-whiteboards",
+      "title": "Claude Whiteboards: Ideen auf einer gemeinsamen Fläche sortieren",
+      "summary": "Whiteboards verwandeln eine Gesprächs- oder Brainstorming-Runde in eine gemeinsame Fläche mit Zeitachsen und Aufgaben. Fertige Boards lassen sich in Dokumente oder Folien umwandeln.",
+      "paragraphs": [
+        "Am 10. November hat Anthropic Claude Whiteboards vorgestellt (Beta, verfügbar auf bezahlten Plänen). Man beschreibt ein Thema oder eine Abstimmungsrunde, und Claude legt eine visuelle Fläche an: Ideen werden gruppiert, Zeitachsen und Verantwortlichkeiten können ergänzt werden. Mehrere Personen können gleichzeitig daran arbeiten.",
+        "Für dich: Praktisch bei der Vorbereitung von Ausschreibungen oder Schulungen, wenn mehrere Punkte zusammenkommen und du Struktur brauchst, bevor du ein Dokument schreibst. Das Board bleibt im Gespräch sichtbar, man kann es nachjustieren und danach in ein Claude-Dokument oder in Folien überführen. Die Funktion ist noch in der Beta – komplexe Layouts oder sehr feine Gestaltung sind begrenzt.",
+        "Ausprobieren. Besonders sinnvoll, wenn du bisher lange Chat-Verläufe hattest und die Struktur immer wieder neu erklären musstest."
+      ],
+      "sources": [
+        {
+          "title": "Anthropic: Claude Whiteboards, Sheets and Data",
+          "url": "https://claude.com/resources/product-updates"
+        },
+        {
+          "title": "Bericht zu Claude Whiteboards und Sheets",
+          "url": "https://glitchwire.com/news/anthropic-launches-spreadsheets-whiteboards-and-meeting-bots-for-claude/"
+        }
+      ]
+    },
+    {
+      "id": "claude-sheets",
+      "title": "Claude Sheets: Tabellen mit Formeln direkt im Gespräch",
+      "summary": "Claude kann jetzt Tabellen mit mehreren Blättern, Formeln, Dropdowns und Formatierung erzeugen und erklären, was es geändert hat. Export als Excel oder CSV ist möglich.",
+      "paragraphs": [
+        "Claude Sheets (ebenfalls Beta auf bezahlten Plänen) erzeugt auf Anfrage eine funktionierende Tabelle. Man kann nach einer Kostenübersicht, einem Zeitplan oder einer Anforderungsliste fragen. Claude legt Blätter an, schreibt Formeln und erklärt bei Änderungen, was es getan hat. Die Tabelle lässt sich als .xlsx oder CSV exportieren oder mit anderen Tools verbinden.",
+        "Für dich: Hilfreich, wenn du bei Angeboten oder Ausschreibungen schnell eine strukturierte Übersicht brauchst (z. B. Anforderungen vs. eigene Leistungen oder eine einfache Kostenübersicht). Die Funktion ist bewusst noch einfach gehalten – für komplexe Excel-Modelle mit vielen Verknüpfungen bleibt der Export und die Weiterarbeit in Excel oder Google Sheets der bessere Weg.",
+        "Ausprobieren. Gut geeignet, um aus einem längeren Text oder einer Liste schnell eine übersichtliche Tabelle zu machen, ohne selbst Formeln schreiben zu müssen."
+      ],
+      "sources": [
+        {
+          "title": "Anthropic Produkt-Updates 10. November",
+          "url": "https://claude.com/resources/product-updates"
+        }
+      ]
+    },
+    {
+      "id": "claude-meetings",
+      "title": "Claude in Meetings: Zuhören und mitarbeiten während des Gesprächs",
+      "summary": "Claude kann als Teilnehmer in Google-Meet-Anrufen dabei sein, dem Gespräch folgen und währenddessen Aufgaben anlegen oder Dokumente vorbereiten. Derzeit Beta für Team- und Enterprise-Pläne.",
+      "paragraphs": [
+        "Claude Meetings (angekündigt am 10. November, Beta für Team- und Enterprise-Kunden, zunächst mit Google Meet) setzt Claude als sichtbaren Teilnehmer in einen Videoanruf. Es folgt dem Gespräch und kann währenddessen Notizen strukturieren, Aufgaben auf einem Whiteboard anlegen oder Informationen aus verbundenen Anwendungen holen. Ziel ist, die Nacharbeit nach dem Meeting zu verringern.",
+        "Für dich: Interessant bei Abstimmungen zu Ausschreibungen oder Schulungsinhalten, wenn mehrere Personen beteiligt sind. Claude kann parallel eine erste Struktur mitlaufen lassen. Die Funktion ist noch eingeschränkt (nur bestimmte Pläne, Google Meet zuerst) und ersetzt kein eigenes Protokoll – sie liefert eher einen Ausgangspunkt, den man danach prüft und anpasst.",
+        "Beobachten. Noch nicht für alle verfügbar und in der Beta. Lohnt sich, den Blick darauf zu behalten, sobald es breiter ausgerollt wird."
+      ],
+      "sources": [
+        {
+          "title": "Claude Meetings und Whiteboards (Bericht)",
+          "url": "https://superintelligencenews.com/ai-fields/large-language-models/claude-workplace-anthropic-meetings-whiteboards-sheets/"
+        }
+      ]
+    }
+  ]
+}
