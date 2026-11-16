@@ -1,7 +1,15 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-12T06:10:00+01:00",
+  "updatedAt": "2026-11-16T07:00:00+01:00",
   "issues": [
+    {
+      "id": "2026-11-16",
+      "revision": 1,
+      "publishedAt": "2026-11-16T07:00:00+01:00",
+      "title": "Kaffee mit Nola",
+      "summary": "GPT-6 Astra hilft einem Physiker bei der Standard-Modell-Definition, Anthropic-IPO diese Woche, und aus Anforderungen eine prüfbare Schulungsfolie ableiten.",
+      "contentURL": "https://litttlelions.github.io/kaffee/ausgaben/2026-11-16-r1.json"
+    },
     {
       "id": "2026-11-12",
       "revision": 1,

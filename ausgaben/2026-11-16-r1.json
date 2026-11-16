@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "id": "2026-11-16",
+  "publishedAt": "2026-11-16T07:00:00+01:00",
+  "title": "Kaffee mit Nola",
+  "summary": "GPT-6 Astra hilft einem Physiker bei der Standard-Modell-Definition, Anthropic-IPO diese Woche, und aus Anforderungen eine prüfbare Schulungsfolie ableiten.",
+  "articles": [
+    {
+      "id": "gpt6-astra-science",
+      "title": "GPT-6 Astra hilft bei der Standard-Modell-Definition",
+      "summary": "OpenAI startet einen Science-Blog. Im ersten Beitrag beschreibt ein Physiker, wie er mit GPT-6 Astra an einer möglichen Gitter-Definition des Standardmodells gearbeitet hat.",
+      "paragraphs": [
+        "Am 15. November hat OpenAI den ersten Gastbeitrag auf dem neuen Science-Blog veröffentlicht. Der Physiker Nathaniel Craig (University of California, Santa Barbara) schildert, wie er mit GPT-6 Astra eine Strategie für eine nicht-störungstheoretische Gitter-Definition des Standardmodells in eine konkrete Konstruktion und einen detaillierten Beweis überführt hat. Das Modell hat die Detailarbeit an der Beweisstruktur übernommen, während Craig die Strategie und die fachliche Einordnung geliefert hat. Der Beitrag ist mit einem arXiv-Preprint verknüpft.",
+        "Für dich: Ein gutes Beispiel dafür, wie starke Modelle bei sehr strukturierter, aber komplexer Facharbeit unterstützen können – nicht als Ersatz, sondern als Partner für die Detailausarbeitung. Für deine Arbeit an Ausschreibungen oder technischen Anforderungen: Wenn du eine klare Strategie oder Checkliste hast, kann das Modell die systematische Durchdringung und die Formulierung der einzelnen Punkte übernehmen. Du behältst die Richtung und die Prüfung.",
+        "Kennen. Einordnung aus der Originalquelle. Zeigt die Zusammenarbeit Mensch–Modell bei anspruchsvollen Text- und Strukturaufgaben, keine neue Alltagsfunktion."
+      ],
+      "sources": [
+        {
+          "title": "OpenAI Science Blog: A step toward defining the Standard Model on a lattice",
+          "url": "https://openai.com/index/step-toward-defining-the-standard-model"
+        }
+      ]
+    },
+    {
+      "id": "anthropic-ipo",
+      "title": "Anthropic-IPO diese Woche – was das für Claude bedeutet",
+      "summary": "Die Preisspanne steht, der Handel soll am 19. November starten. Für den Alltag in Langdock ändert sich zunächst nichts, aber die Sichtbarkeit des Unternehmens steigt.",
+      "paragraphs": [
+        "Anthropic hat in der aktualisierten IPO-Anmeldung die Preisspanne auf 70 bis 78 US-Dollar pro Aktie für 825 Millionen Class-A-Aktien gesetzt. Nach Berichten soll die Preisfestlegung am 18. November und der erste Handelstag am 19. November unter dem Ticker ANT an der Nasdaq erfolgen. Parallel gibt es eine große private Platzierung mit unter anderem Google und Nvidia. Für Enterprise-Kunden wird Claude Data am 19. November standardmäßig aktiviert (sofern nicht vorher anders eingestellt).",
+        "Für dich: Im täglichen Arbeiten mit Claude über Langdock oder direkt ändert sich durch den Börsengang kurzfristig nichts an den Funktionen oder den Zugängen. Langfristig kann die höhere öffentliche Aufmerksamkeit zu mehr Transparenz bei Preisen, Nutzungslimits und Roadmap führen. Behalte die offiziellen Produkt-Updates im Blick, falls sich etwas an den Enterprise-Einstellungen oder den Whiteboards/Sheets ändert. Die Aktivierung von Claude Data am 19. ist vor allem für Admins relevant, die Unternehmensdaten anbinden.",
+        "Beobachten. Aktueller Status aus Berichten und Anmeldungen. Kein unmittelbarer Praxiswechsel, aber Kontext für die Stabilität und Entwicklung von Claude."
+      ],
+      "sources": [
+        {
+          "title": "TechCrunch: Anthropic sets IPO price range",
+          "url": "https://techcrunch.com/2026/11/10/anthropic-sets-ipo-price-range-of-70-to-78-per-share-to-reach-an-implied-valuation-of-1-404-trillion/"
+        },
+        {
+          "title": "Reuters: Anthropic eyes $1.4 trillion IPO valuation",
+          "url": "https://www.reuters.com/business/anthropic-ipo-raise-much-644-billion-latest-draft-prospectus-shows-2026-11-10/"
+        }
+      ]
+    },
+    {
+      "id": "schulungsfolie-aus-anforderungen",
+      "title": "Aus Anforderungen eine Schulungsfolie machen",
+      "summary": "Statt direkt Folien zu generieren, erst die Lernziele und die Übungsstellen klarziehen – dann wird die Folie präziser und leichter zu prüfen.",
+      "paragraphs": [
+        "In den letzten Tagen tauchten in Praxisberichten wiederholt Hinweise auf, dass reine „mach mir Folien dazu“-Aufforderungen oft zu dicht oder zu allgemein werden. Besser funktioniert die Zwischenschicht: aus dem Material zuerst die Schulungsstruktur mit klaren Lernzielen und einer konkreten Übungsstelle ableiten.",
+        "Für dich: Nimm einen Abschnitt aus einer Ausschreibung oder einer internen Anforderung und sage: „Leite daraus drei Lernziele für eine 20-Minuten-Schulung ab. Formuliere zu jedem Lernziel eine kurze Folienüberschrift und genau eine Übung oder Rückfrage, die die Teilnehmenden in der Schulung machen sollen. Halte alles so knapp, dass es auf eine Folie passt.“ Danach prüfst du, ob die Übungen wirklich zu deinen Zielen passen, und baust erst dann die eigentlichen Folien (manuell oder mit Claude/Gemini). Das hält die Kontrolle bei dir und macht die Folien prüfbarer.",
+        "Fundstück. Arbeitsweise aus Praxisberichten der letzten sieben Tage. Kein neues Feature, sondern eine engere Reihenfolge bei der Nutzung der Tools, die du schon kennst."
+      ],
+      "sources": []
+    }
+  ]
+}
