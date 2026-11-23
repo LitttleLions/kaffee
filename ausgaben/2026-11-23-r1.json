@@ -1,0 +1,57 @@
+{
+  "schemaVersion": 1,
+  "id": "2026-11-23",
+  "publishedAt": "2026-11-23T07:00:00+01:00",
+  "title": "Kaffee mit Nola",
+  "summary": "OpenAI schlägt gemeinsame Grenzen vor, GPT-6.2 Astra und Sol für klarere Folien, und ChatGPT Space für gemeinsame Seiten und Präsentationen.",
+  "articles": [
+    {
+      "id": "openai-perplexity-grenzen",
+      "title": "OpenAI schlägt gemeinsame Grenzen für die KI-Entwicklung vor",
+      "summary": "Chefscientist Jakub Pachocki will Perplexity als gemeinsame Messlatte nutzen. Die Anbieter sollen sich auf Schwellen einigen, die sie nicht überschreiten, bis die Überwachung besser ist.",
+      "paragraphs": [
+        "Am 22. November hat OpenAI den Beitrag „Perplexity and Intelligence“ veröffentlicht. Pachocki beschreibt Perplexity als Maß dafür, wie gut ein Modell den nächsten Textabschnitt vorhersagt – je niedriger, desto besser. Er schlägt vor, dass die großen Anbieter diese Zahl offenlegen und sich auf gemeinsame Grenzen einigen, die sie nicht überschreiten, bis es bessere Möglichkeiten gibt, das Verhalten der Modelle zu verstehen und zu überwachen. Sam Altman hat den Vorschlag öffentlich unterstützt.",
+        "Für dich: Im täglichen Arbeiten mit Langdock oder ChatGPT ändert sich durch diesen Vorschlag zunächst nichts an den verfügbaren Modellen oder den Funktionen. Es ist ein Zeichen, dass die Anbieter über das Tempo der Entwicklung und über Kontrolle nachdenken. Behalte die offiziellen Produkt-Updates im Blick, falls sich etwas an Zugängen, Limits oder den Enterprise-Einstellungen ändert. Für deine Texte, Folien und Schulungen bleibt die praktische Nutzung gleich.",
+        "Beobachten. Aktueller Vorschlag aus der Originalquelle. Kein unmittelbarer Praxiswechsel, aber Kontext für die weitere Entwicklung der Modelle, die du nutzt."
+      ],
+      "sources": [
+        {
+          "title": "OpenAI: Perplexity and Intelligence",
+          "url": "https://openai.com/index/perplexity-and-intelligence/"
+        }
+      ]
+    },
+    {
+      "id": "gpt-6-2-astra-sol",
+      "title": "GPT-6.2 Astra und Sol – klarere Folien und Dokumente",
+      "summary": "OpenAI hat die neuen Modelle vorgestellt. Sie sollen Folien, Tabellen und Texte besser an Vorlagen anpassen und effizienter arbeiten.",
+      "paragraphs": [
+        "Mitte November hat OpenAI GPT-6.2 Astra für anspruchsvolle Aufgaben und GPT-6.2 Sol für den Alltag vorgestellt. Beide sind in ChatGPT Work und in Langdock verfügbar. OpenAI berichtet, dass die Modelle Folien, Tabellen und Dokumente erzeugen, die näher an den Vorlagen und Konventionen bleiben, die man vorgibt, und dass sie weniger generische Formulierungen verwenden. Sie brauchen weniger Ausgabe-Text für die gleiche Aufgabe.",
+        "Für dich: Wenn du aus einer Anforderung oder einem Schulungsmaterial Folien oder eine strukturierte Übersicht machst, probiere GPT-6.2 Sol oder Astra in Langdock. Gib eine klare Vorlage oder ein Beispiel mit und bitte um knappe Überschriften, die den Kern sagen, und um prüfbare Stichpunkte. Danach vergleichst du das Ergebnis selbst mit dem, was du brauchst. Die Modelle ersetzen nicht die Prüfung, aber sie können die erste Fassung näher an deine Struktur bringen.",
+        "Ausprobieren. Neue Modelle seit Mitte November. Direkter Praxisbezug zu Folien und strukturierten Texten, die du schon kennst."
+      ],
+      "sources": [
+        {
+          "title": "OpenAI: Introducing GPT-6.2 Astra and Sol",
+          "url": "https://openai.com/index/introducing-gpt-6-2-astra-sol/"
+        }
+      ]
+    },
+    {
+      "id": "chatgpt-space-plus",
+      "title": "ChatGPT Space für Plus – gemeinsame Seiten und Folien",
+      "summary": "Ab dem 20. November können Plus-Nutzer interaktive Seiten und Präsentationen mit ChatGPT bauen und mit anderen teilen.",
+      "paragraphs": [
+        "OpenAI hat ChatGPT Space für Nutzer mit Plus-Abo freigegeben. In Space kannst du Seiten und Präsentationen (Slides) mit ChatGPT erstellen, andere Personen mit Zugang einladen und die Inhalte so einstellen, dass sie sich aus verbundenen Tools aktualisieren. Die Funktion ersetzt die frühere Library und sammelt Seiten, Folien, Bilder und Dateien an einem Ort.",
+        "Für dich: Wenn du Schulungsunterlagen oder eine Übersicht zu Anforderungen mit Kolleginnen und Kollegen erstellst, kann Space eine gemeinsame Arbeitsfläche sein, statt alles in einzelnen Chats zu lassen. Du kannst eine Seite oder Folie anlegen, Kommentare nutzen und ChatGPT um Änderungen bitten. In Langdock bleibt der gewohnte Chat mit den Modellen. Für reine OpenAI-Nutzung oder zum Export in PowerPoint oder Google Slides ist es ein zusätzlicher Weg zu strukturierten Dokumenten.",
+        "Ausprobieren. Neue Funktion seit dem 20. November. Praktischer Bezug zu gemeinsamen Folien und Seiten, die du für Schulungen oder Anforderungen nutzen kannst."
+      ],
+      "sources": [
+        {
+          "title": "OpenAI Help Center: ChatGPT release notes",
+          "url": "https://help.openai.com/en/articles/6825453-chatgpt-release-notes"
+        }
+      ]
+    }
+  ]
+}

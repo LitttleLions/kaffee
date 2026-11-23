@@ -1,7 +1,15 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-16T07:00:00+01:00",
+  "updatedAt": "2026-11-23T07:00:00+01:00",
   "issues": [
+    {
+      "id": "2026-11-23",
+      "revision": 1,
+      "publishedAt": "2026-11-23T07:00:00+01:00",
+      "title": "Kaffee mit Nola",
+      "summary": "OpenAI schlägt gemeinsame Grenzen vor, GPT-6.2 Astra und Sol für klarere Folien, und ChatGPT Space für gemeinsame Seiten und Präsentationen.",
+      "contentURL": "https://litttlelions.github.io/kaffee/ausgaben/2026-11-23-r1.json"
+    },
     {
       "id": "2026-11-16",
       "revision": 1,
